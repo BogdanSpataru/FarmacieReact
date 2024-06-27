@@ -35,14 +35,17 @@ export const FavoriteButton = styled.button`
   font-size: 24px;
   position: absolute;
   z-index: 1;
-
+  width: 40px;
   &:hover {
-    color: red;
+    background-color: darkgrey;
+    border-radius: 50%;
   }
 `;
 
 export const FavoriteIcon = styled.span`
   color: ${(props) => (props.isfavorite ? "red" : "black")};
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Description = styled.p`
@@ -80,6 +83,10 @@ export const AddToCartButton = styled.button`
   position: absolute;
   top: calc(80% + 4px);
   right: 20px;
+
+  &:hover {
+    background-color: darkgreen;
+  }
 `;
 
 export const CartIcon = styled.span`

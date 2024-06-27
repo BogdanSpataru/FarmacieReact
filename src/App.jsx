@@ -21,6 +21,8 @@ import CartPage from "./components/CartPage/CartPage";
 import FavPage from "./components/CartPage/FavPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Reteta from "./components/Reteta/Reteta";
+import FaraReteta from "./components/Reteta/FaraReteta";
 
 function App() {
   const [stateGlobalCart, dispatchCart] = useReducer(
@@ -47,6 +49,8 @@ function App() {
         <Route path="/noutati" element={<Noutati />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/favorite" element={<FavPage />} />
+        <Route path="/reteta" element={<Reteta />} />
+        <Route path="/farareteta" element={<FaraReteta />} />
       </Routes>
       <Newsletter />
       <Footer />

@@ -52,8 +52,10 @@ function Navbar2() {
           <ResponsiveButton></ResponsiveButton>
           <ProdButton onClick={toggleDropdown}>&#9776; Produse</ProdButton>
           <ProdDropdown isVisible={isDropdownVisible}>
-            <DropdownItem>MEDICAMENTE OTC</DropdownItem>
-            <DropdownItem>MEDICAMENTE CU RETETA</DropdownItem>
+            <DropdownItem to="/farareteta">
+              MEDICAMENTE FARA RETETA
+            </DropdownItem>
+            <DropdownItem to="/reteta">MEDICAMENTE CU RETETA</DropdownItem>
             <DropdownItem>DISPOZITIVE MEDICALE</DropdownItem>
             <DropdownItem>VITAMINE SI SUPLIMENTE</DropdownItem>
             <DropdownItem>DERMATO-COSMETICE</DropdownItem>

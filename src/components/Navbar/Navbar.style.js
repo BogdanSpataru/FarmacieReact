@@ -216,6 +216,9 @@ export const LinkNavFav = styled.div`
   @media screen and (max-width: 820px) {
     right: -6px;
   }
+  @media screen and (min-width: 1300px) {
+    right: 56%;
+  }
 `;
 export const DropdownContainerFav = styled.div`
   position: absolute;
