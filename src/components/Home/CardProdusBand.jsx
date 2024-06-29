@@ -8,11 +8,13 @@ import {
   Price,
   AddToCartButtonBand,
   Producer,
+  LinkContainerProdus,
 } from "./Home.style";
 import { CartIcon } from "../Produse/Produse.styled";
 import { CartContext } from "../../store/context";
 import { useContext } from "react";
 import { addToCart, removeFromFav, addToFav } from "../../store/actions";
+import FavoriteButtonComponent from "../Produse/FavoriteButton";
 
 const CardProdusBand = ({ name, img, price, titlu, id, brand }) => {
   const { state, dispatchCart } = useContext(CartContext);
@@ -21,11 +23,22 @@ const CardProdusBand = ({ name, img, price, titlu, id, brand }) => {
     dispatchCart(addToCart(id, name, img, price));
   };
 
+  const isfavorite = state?.favValue?.some((item) => item.id === id);
+
   return (
     <Card>
-      <Image src={img} alt={name} />
-      <Title>{name}</Title>
-      <Description>{titlu}</Description>
+      <FavoriteButtonComponent
+        id={id}
+        name={name}
+        img={img}
+        price={price}
+        isfavorite={isfavorite}
+      />
+      <LinkContainerProdus to={`/produs/${id}`}>
+        <Image src={img} alt={name} />
+        <Title>{name}</Title>
+        <Description>{titlu}</Description>
+      </LinkContainerProdus>
       <Producer href="#">{brand}</Producer>
       <Price>{price} </Price>
       <AddToCartButtonBand onClick={() => handleAddCart(id, name, img, price)}>

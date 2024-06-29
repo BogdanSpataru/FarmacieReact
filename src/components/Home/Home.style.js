@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HomeContainerB = styled.div`
   display: flex;
@@ -131,4 +132,8 @@ export const Titleh3 = styled.h3`
   font-size: 22px;
   display: flex;
   left: 12%;
+`;
+
+export const LinkContainerProdus = styled(Link)`
+  text-decoration: none;
 `;
