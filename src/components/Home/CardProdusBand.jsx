@@ -24,6 +24,13 @@ const CardProdusBand = ({ name, img, price, titlu, id, brand }) => {
   return (
     <Card>
       <Image src={img} alt={name} />
+      <Title>{name}</Title>
+      <Description>{titlu}</Description>
+      <Producer href="#">{brand}</Producer>
+      <Price>{price} </Price>
+      <AddToCartButtonBand onClick={() => handleAddCart(id, name, img, price)}>
+        <CartIcon>&#128722;</CartIcon>
+      </AddToCartButtonBand>
     </Card>
   );
 };
