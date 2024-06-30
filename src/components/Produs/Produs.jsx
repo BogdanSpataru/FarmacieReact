@@ -15,7 +15,7 @@ import { ProdusContainer, ProdusImgSingle, TitluProdus } from "./Produs.style";
 
 function Produs() {
   const { img, titlu, brand, price, name, id } = useParams();
-  const { prods: produs, error, loading } = useFetchProd("/" + id);
+  const { prods: produs, error, loading } = useFetchProd(id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
 

@@ -28,7 +28,7 @@ const PriceCard = () => {
   const incrementQuantity = () => setQuantity(quantity + 1);
   const decrementQuantity = () => setQuantity(quantity > 1 ? quantity - 1 : 1);
 
-  const { prods: produs, error, loading } = useFetchProd("/" + id);
+  const { prods: produs, error, loading } = useFetchProd(id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
 

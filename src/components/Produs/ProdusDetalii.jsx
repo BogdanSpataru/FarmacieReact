@@ -12,7 +12,7 @@ import {
 
 function ProductDetails() {
   const { id } = useParams(); //am extras doar id din {id: 1}
-  const { prods: produs, error, loading } = useFetchProd("/" + id);
+  const { prods: produs, error, loading } = useFetchProd(id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
 

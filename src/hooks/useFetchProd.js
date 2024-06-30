@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:3001/prods";
+const API_URL = "http://localhost:3001";
 
 const useFetchProd = (id = "") => {
   const [prods, setProd] = useState(null);
@@ -10,7 +10,7 @@ const useFetchProd = (id = "") => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(API_URL + id); // /1
+        const response = await fetch(`${API_URL}/prods/${id}`);
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
