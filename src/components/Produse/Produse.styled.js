@@ -36,14 +36,13 @@ export const FavoriteButton = styled.button`
   position: absolute;
   z-index: 1;
   width: 40px;
-  &:hover {
-    background-color: darkgrey;
-    border-radius: 50%;
-  }
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const FavoriteIcon = styled.span`
-  color: ${(props) => (props.isfavorite ? "red" : "black")};
   justify-content: center;
   align-items: center;
 `;

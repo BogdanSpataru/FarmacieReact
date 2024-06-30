@@ -1,7 +1,7 @@
 {
   "emails": [
     {
-      "id": "0",
+      "id": 0,
       "email": ""
     }
   ],
@@ -31,7 +31,8 @@
       "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "titlu": "Ibuprofen 200mg, comprimate. Producător: Advil Co.",
       "brand": "Advil",
-      "type": "Fără rețetă"
+      "type": "Fără rețetă",
+      "categorie": "IngrijPers"
     },
     {
       "id": "3",
@@ -57,7 +58,8 @@
       "titlu": "Amoxicilină 500mg, capsule. Producător: Moxatag Pharmaceuticals.",
       "brand": "Moxatag",
       "noutati": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "IngrijPers"
     },
     {
       "id": "5",
@@ -96,7 +98,8 @@
       "titlu": "Atorvastatin 20mg, comprimate. Producător: Lipitor Inc.",
       "brand": "Lipitor",
       "noutati": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "IngrijPers"
     },
     {
       "id": "8",
@@ -108,7 +111,8 @@
       "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "titlu": "Omeprazol 20mg, capsule. Producător: Prilosec Pharmaceuticals.",
       "brand": "Prilosec",
-      "type": "Fără rețetă"
+      "type": "Fără rețetă",
+      "categorie": "ViataSex"
     },
     {
       "id": "9",
@@ -134,7 +138,8 @@
       "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "titlu": "Losartan 50mg, comprimate. Producător: Cozaar Inc.",
       "brand": "Cozaar",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "ViataSex"
     },
     {
       "id": "11",
@@ -147,7 +152,8 @@
       "titlu": "Albuterol 90mcg, inhalator. Producător: Ventolin Pharmaceuticals.",
       "brand": "Ventolin",
       "trend": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "ViataSex"
     },
     {
       "id": "12",
@@ -173,7 +179,8 @@
       "titlu": "Sertralină 50mg, comprimate. Producător: Zoloft Inc.",
       "brand": "Zoloft",
       "trend": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "ViataSex"
     },
     {
       "id": "14",
@@ -208,7 +215,8 @@
       "description": "Zolpidem 10mg, comprimate. Producător: Ambien Pharmaceuticals.",
       "titlu": "Zolpidem 10mg, comprimate. Producător: Ambien Pharmaceuticals.",
       "brand": "Ambien",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "VitSupliment"
     },
     {
       "id": "17",
@@ -239,7 +247,8 @@
       "description": "Pantoprazol 40mg, comprimate. Producător: Protonix Ltd.",
       "titlu": "Pantoprazol 40mg, comprimate. Producător: Protonix Ltd.",
       "brand": "Protonix",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "VitSupliment"
     },
     {
       "id": "20",
@@ -250,7 +259,8 @@
       "titlu": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "brand": "Lexapro",
       "trend": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "VitSupliment"
     },
     {
       "id": "21",
@@ -261,7 +271,8 @@
       "titlu": "Prednison 20mg, comprimate. Producător: Deltasone Inc.",
       "brand": "Deltasone",
       "promo": true,
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "VitSupliment"
     },
     {
       "id": "22",
@@ -271,7 +282,8 @@
       "description": "Trazodonă 50mg, comprimate. Producător: Desyrel Corp.",
       "titlu": "Trazodonă 50mg, comprimate. Producător: Desyrel Corp.",
       "brand": "Desyrel",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "VitSupliment"
     },
     {
       "id": "23",
@@ -455,7 +467,8 @@
       "description": "Clonazepam 1mg, comprimate. Producător: Klonopin Ltd.",
       "titlu": "Clonazepam 1mg, comprimate. Producător: Klonopin Ltd.",
       "brand": "Klonopin",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DermatoCosm"
     },
     {
       "id": "41",
@@ -475,7 +488,8 @@
       "description": "Propranolol 40mg, comprimate. Producător: Inderal Inc.",
       "titlu": "Propranolol 40mg, comprimate. Producător: Inderal Inc",
       "brand": "Inderal",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DermatoCosm"
     },
     {
       "id": "43",
@@ -485,7 +499,8 @@
       "description": "Doxiciclină 100mg, capsule. Producător: Vibramycin Ltd.",
       "titlu": "Doxiciclină 100mg, capsule. Producător: Vibramycin Ltd",
       "brand": "Vibramycin",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DispozMed"
     },
     {
       "id": "44",
@@ -495,7 +510,8 @@
       "description": "Oxycodonă 10mg, comprimate. Producător: OxyContin Pharmaceuticals.",
       "titlu": "Oxycodonă 10mg, comprimate. Producător: OxyContin Pharmaceuticals",
       "brand": "OxyContin",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DermatoCosm"
     },
     {
       "id": "45",
@@ -505,7 +521,8 @@
       "description": "Ciprofloxacină 500mg, comprimate. Producător: Cipro Inc.",
       "titlu": "Ciprofloxacină 500mg, comprimate. Producător: Cipro Inc",
       "brand": "Cipro",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DietaWellness"
     },
     {
       "id": "46",
@@ -515,7 +532,8 @@
       "description": "Duloxetină 60mg, capsule. Producător: Cymbalta Pharmaceuticals.",
       "titlu": "Duloxetină 60mg, capsule. Producător: Cymbalta Pharmaceuticals",
       "brand": "Cymbalta",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DispozMed"
     },
     {
       "id": "47",
@@ -525,7 +543,8 @@
       "description": "Metilfenidat 20mg, comprimate. Producător: Ritalin Ltd.",
       "titlu": "Metilfenidat 20mg, comprimate. Producător: Ritalin Ltd",
       "brand": "Ritalin",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DispozMed"
     },
     {
       "id": "48",
@@ -545,7 +564,8 @@
       "description": "Valaciclovir 500mg, comprimate. Producător: Valtrex Ltd.",
       "titlu": "Valaciclovir 500mg, comprimate. Producător: Valtrex Ltd",
       "brand": "Valtrex",
-      "type": "Rețetă"
+      "type": "Rețetă",
+      "categorie": "DietaWellness"
     },
     {
       "id": "50",
@@ -578,7 +598,8 @@
       "description": "Nurofen, 200 mg, 24 drajeuri, Reckitt Benkiser.",
       "titlu": "Nurofen, 200 mg, 24 drajeuri, Reckitt Benkiser",
       "brand": "Nurofen",
-      "type": "Fără rețetă"
+      "type": "Fără rețetă",
+      "categorie": "DietaWellness"
     }
   ]
 }

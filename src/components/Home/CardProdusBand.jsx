@@ -23,17 +23,9 @@ const CardProdusBand = ({ name, img, price, titlu, id, brand }) => {
     dispatchCart(addToCart(id, name, img, price));
   };
 
-  const isfavorite = state?.favValue?.some((item) => item.id === id);
-
   return (
     <Card>
-      <FavoriteButtonComponent
-        id={id}
-        name={name}
-        img={img}
-        price={price}
-        isfavorite={isfavorite}
-      />
+      <FavoriteButtonComponent id={id} name={name} img={img} price={price} />
       <LinkContainerProdus to={`/produs/${id}`}>
         <Image src={img} alt={name} />
         <Title>{name}</Title>

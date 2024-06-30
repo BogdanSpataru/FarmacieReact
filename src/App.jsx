@@ -23,7 +23,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Reteta from "./components/Reteta/Reteta";
 import FaraReteta from "./components/Reteta/FaraReteta";
-
+import DermatoCosm from "./components/ProduseDropdown/DermatoCosm";
+import DietaWellness from "./components/ProduseDropdown/DietaWellness";
+import DispozMed from "./components/ProduseDropdown/DispozMed";
+import IngrijPers from "./components/ProduseDropdown/IngrijPers";
+import ViataSex from "./components/ProduseDropdown/ViataSex";
+import VitSupliment from "./components/ProduseDropdown/VitSupliment";
 function App() {
   const [stateGlobalCart, dispatchCart] = useReducer(
     cartReducer,
@@ -51,6 +56,12 @@ function App() {
         <Route path="/favorite" element={<FavPage />} />
         <Route path="/reteta" element={<Reteta />} />
         <Route path="/farareteta" element={<FaraReteta />} />
+        <Route path="/dermatocosm" element={<DermatoCosm />} />
+        <Route path="/dietawellness" element={<DietaWellness />} />
+        <Route path="/dispozmed" element={<DispozMed />} />
+        <Route path="/ingrijpers" element={<IngrijPers />} />
+        <Route path="/viatasex" element={<ViataSex />} />
+        <Route path="/vitsupliment" element={<VitSupliment />} />
       </Routes>
       <Newsletter />
       <Footer />

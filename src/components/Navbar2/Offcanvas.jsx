@@ -32,14 +32,14 @@ function ResponsiveButton() {
           <OffcanvasB.Title>PRODUSE</OffcanvasB.Title>
         </OffcanvasB.Header>
         <OffcanvasB.Body>
-          <DropdownItem>MEDICAMENTE OTC</DropdownItem>
-          <DropdownItem>MEDICAMENTE CU RETETA</DropdownItem>
-          <DropdownItem>DISPOZITIVE MEDICALE</DropdownItem>
-          <DropdownItem>VITAMINE SI SUPLIMENTE</DropdownItem>
-          <DropdownItem>DERMATO-COSMETICE</DropdownItem>
-          <DropdownItem>INGRIJIRE PERSONALA</DropdownItem>
-          <DropdownItem>DIETA SI WELLNESS</DropdownItem>
-          <DropdownItem>VIATA SEXUALA</DropdownItem>
+          <DropdownItem to="/farareteta">MEDICAMENTE FARA RETETA</DropdownItem>
+          <DropdownItem to="/reteta">MEDICAMENTE CU RETETA</DropdownItem>
+          <DropdownItem to="/dispozmed">DISPOZITIVE MEDICALE</DropdownItem>
+          <DropdownItem to="/vitsupliment">VITAMINE SI SUPLIMENTE</DropdownItem>
+          <DropdownItem to="/dermatocosm">DERMATO-COSMETICE</DropdownItem>
+          <DropdownItem to="/ingrijpers">INGRIJIRE PERSONALA</DropdownItem>
+          <DropdownItem to="/dietawellness">DIETA SI WELLNESS</DropdownItem>
+          <DropdownItem to="/viatasex">VIATA SEXUALA</DropdownItem>
           <DropdownItem to="/produse">TOATE PRODUSELE</DropdownItem>
         </OffcanvasB.Body>
       </OffcanvasB>

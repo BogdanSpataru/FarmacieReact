@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import styled from "styled-components";
 import { CarouselContainerB } from "./Navbar2.styled";
 const CarouselComponent = () => (
   <CarouselContainerB>

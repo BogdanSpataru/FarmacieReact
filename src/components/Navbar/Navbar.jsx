@@ -1,14 +1,11 @@
 import { useState, useContext } from "react";
-import Dropdown from "./Dropdown";
 import { CartContext } from "../../store/context";
-import { Link } from "react-router-dom";
 import {
   Logo,
   DropdownContainerFav,
   LinkNavStyle,
   DropdownItem,
   NavbarContainer,
-  ButtonDropdown,
   LinkContainerDesktop,
   LogoContainer,
   LinkNavFav,
@@ -27,7 +24,6 @@ import {
   FavButton,
   DropdownLink,
 } from "./Navbar.style";
-import { List, X } from "react-bootstrap-icons";
 import SearchBar from "./SearchBar";
 import {
   removeFromCart,

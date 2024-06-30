@@ -47,7 +47,7 @@ function ProductDetails() {
           <p>Cod produs: 6424835002130</p>
           <p>Data expirarii: 30-01-2027</p>
           <p>Tip: Dispozitiv medical</p>
-          <p>Vandut de: Farmacia Tei SRL</p>
+          <p>Vandut de: Farmacia SRL</p>
         </>
       )}
     </ProductDetailsContainer>

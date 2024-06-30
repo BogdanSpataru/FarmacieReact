@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import {
   CardContainer,
   Image,
@@ -13,31 +12,18 @@ import {
 import FavoriteButtonComponent from "./FavoriteButton";
 import { CartContext } from "../../store/context";
 import { useContext } from "react";
-import {
-  addToCart,
-  removeFromCart,
-  removeFromFav,
-  addToFav,
-} from "../../store/actions";
+import { addToCart } from "../../store/actions";
 
 function CardProdus({ img, titlu, brand, price, name, id }) {
-  const { state, dispatchCart } = useContext(CartContext);
+  const { dispatchCart } = useContext(CartContext);
 
   const handleAddCart = (id, name, img, price) => {
     dispatchCart(addToCart(id, name, img, price));
   };
 
-  const isfavorite = state?.favValue?.some((item) => item.id === id);
-
   return (
     <CardContainer>
-      <FavoriteButtonComponent
-        id={id}
-        name={name}
-        img={img}
-        price={price}
-        isfavorite={isfavorite}
-      />
+      <FavoriteButtonComponent id={id} name={name} img={img} price={price} />
       <LinkContainer to={`/produs/${id}`}>
         <Image src={img} alt="Product" />
         <Description>{titlu}</Description>

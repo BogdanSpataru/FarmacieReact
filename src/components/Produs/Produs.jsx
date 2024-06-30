@@ -26,9 +26,6 @@ function Produs() {
       handleLocalData("prods", JSON.stringify(newLocalData));
     }
   };
-  const { state, dispatchCart } = useContext(CartContext);
-
-  const isfavorite = state?.favValue?.some((item) => item.id === id);
 
   useEffect(() => {
     if (localData || isLocalDataEmpty || produs) addNewId();
@@ -47,7 +44,6 @@ function Produs() {
             name={produs.name}
             img={produs.img}
             price={produs.price}
-            isfavorite={isfavorite}
           />
         </>
       )}

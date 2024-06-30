@@ -22,10 +22,16 @@ const FavoriteButtonComponent = ({ id, name, img, price }) => {
     }
   };
 
+  const [hover, setHover] = useState(false);
+
   return (
-    <FavoriteButton onClick={handleFavoriteClick}>
-      <FavoriteIcon role="img" aria-label="Favorite" isfavorite={isFav}>
-        {isFav ? "❤️" : "🤍"}
+    <FavoriteButton
+      onClick={handleFavoriteClick}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <FavoriteIcon role="img" aria-label="Favorite">
+        {hover ? "❤️" : isFav ? "❤️" : "🤍"}
       </FavoriteIcon>
     </FavoriteButton>
   );

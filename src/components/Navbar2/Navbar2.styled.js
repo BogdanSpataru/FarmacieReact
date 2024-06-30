@@ -63,6 +63,7 @@ export const ProdDropdown = styled.div`
   padding: 10px;
   width: 17vw;
   z-index: 2;
+  min-width: 220px;
   @media screen and (max-width: 825px) {
     display: none;
   }
@@ -81,7 +82,6 @@ export const DropdownItem = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
 
   &:hover {
     background-color: #ddd;

@@ -38,11 +38,16 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 200px;
+  min-width: 180px;
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   max-height: 400px;
+
+  &:hover {
+    transform: scale(1.12);
+  }
 `;
 
 export const Image = styled.img`
@@ -92,8 +97,33 @@ export const Description = styled.p`
 
 export const TrendWrapper = styled.div`
   display: flex;
-  width: 100%;
   height: 360px;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  @media screen and (min-width: 1345px) {
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
 `;
 
 export const ScrollButton = styled.button`
@@ -105,6 +135,7 @@ export const ScrollButton = styled.button`
   &:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+    overflow-x: scroll;
   }
 
   &:hover {
@@ -131,7 +162,7 @@ export const Titleh3 = styled.h3`
   position: relative;
   font-size: 22px;
   display: flex;
-  left: 12%;
+  margin-left: 12%;
 `;
 
 export const LinkContainerProdus = styled(Link)`
