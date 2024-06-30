@@ -23,10 +23,6 @@ import {
 
 function CartPage() {
   const { dispatchCart, stateGlobalCart } = useContext(CartContext);
-  const [displayDropdown, setDisplayDropdown] = useState(false);
-  const [showFavDropdown, setShowFavDropdown] = useState(false);
-  const [showCartDropdown, setShowCartDropdown] = useState(false);
-  const favValue = stateGlobalCart?.favValue || [];
   const cartValue = stateGlobalCart?.cartValue || [];
 
   const parsePrice = (priceString) => {
@@ -37,20 +33,6 @@ function CartPage() {
     .toFixed(2);
   const totalItems = cartValue.reduce((acc, item) => acc + item.quantity, 0);
 
-  const handleDisplayDropdown = () => {
-    setDisplayDropdown(!displayDropdown);
-  };
-
-  const groupedFavValue = favValue.reduce((acc, item) => {
-    const existingItem = acc.find((i) => i.id === item.id);
-    if (existingItem) {
-      existingItem.quantity += 1;
-    } else {
-      acc.push({ ...item, quantity: 1 });
-    }
-    return acc;
-  }, []);
-
   const groupedCartValue = cartValue.reduce((acc, item) => {
     const existingItem = acc.find((i) => i.id === item.id);
     if (existingItem) {
@@ -60,10 +42,6 @@ function CartPage() {
     }
     return acc;
   }, []);
-
-  const handleRemoveFromFav = (id) => {
-    dispatchCart(removeFromFav(id));
-  };
 
   const handleRemoveFromCart = (id) => {
     dispatchCart(removeFromCart(id));

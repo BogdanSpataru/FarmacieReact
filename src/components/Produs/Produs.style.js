@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import {
+  DARK_GRAY,
+  DARK_GREEN,
+  RED_ORANGE,
+  WHITE_NEUTRAL,
+} from "../../constants/color";
 import { Image } from "../Produse/Produse.styled";
 
 export const ProdusContainer = styled.div`
@@ -169,6 +175,10 @@ export const AddToCartButton = styled.button`
   justify-content: center;
   display: flex;
   margin-left: 4px;
+  &:hover {
+    background: ${DARK_GREEN};
+    color: ${WHITE_NEUTRAL};
+  }
 `;
 
 export const CartIcon = styled.span`
