@@ -23,7 +23,7 @@ import {
 const PriceCard = () => {
   const [quantity, setQuantity] = useState(1);
   const { dispatchCart } = useContext(CartContext);
-  const { img, titlu, brand, price, name, id } = useParams();
+  const { id } = useParams();
 
   const incrementQuantity = () => setQuantity(quantity + 1);
   const decrementQuantity = () => setQuantity(quantity > 1 ? quantity - 1 : 1);

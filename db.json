@@ -1,13 +1,13 @@
 {
   "emails": [
     {
-      "id": 0,
+      "id": "0",
       "email": ""
     }
   ],
   "prods": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Paracetamol",
       "price": "15,00 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/30928/medium/paracetamol-helcor-500-mg-20-comprimate-helcor-1869.webp",
@@ -22,7 +22,7 @@
       "promo": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Ibuprofen",
       "price": "20,00 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/59174/ibuprofen-fiterman-50-mg-g-gel-50-g-fiterman-pharma-525.png",
@@ -34,7 +34,7 @@
       "type": "Fără rețetă"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Aspirin",
       "price": "18,50 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/89478/medium/aspirina-organica-60-capsule-herbagetica-4241.webp",
@@ -47,7 +47,7 @@
       "promo": true
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Amoxicillin",
       "price": "30,00 LEI",
       "img": "https://www.lasanteca.com/userfiles/2018/12/AMOXICILINA-500MG-CAJA-POR-50-CAPSULAS-CON-BLISTER.jpg",
@@ -60,7 +60,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lisinopril",
       "price": "25,00 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2017/08/Lisinopril-5mg-Tablets_28s-1.png",
@@ -72,7 +72,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Metformin",
       "price": "22,50 LEI",
       "img": " https://api.evaro.com/wp-content/uploads/2023/09/Metformin-500mg-min.png",
@@ -86,7 +86,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Atorvastatin",
       "price": "28,00 LEI",
       "img": " https://www.meldinpharma.com/web/image/product.template/5305/image_1024?unique=ccfd778",
@@ -99,7 +99,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Omeprazole",
       "price": "19,00 LEI",
       "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1706806290/sd/uk/services-setup/acid-reflux/omeprazole/knh8cjncnq9z5axkil3h.png",
@@ -111,7 +111,7 @@
       "type": "Fără rețetă"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Simvastatin",
       "price": "26,00 LEI",
       "img": " https://romeds.com/wp-content/uploads/2022/12/Simvastatin.png",
@@ -125,7 +125,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Losartan",
       "price": "24,50 LEI",
       "img": " https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D9%86%D8%AF%D9%87-%D9%81%D8%B4%D8%A7%D8%B1-%D8%AE%D9%88%D9%86/%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%D8%A7%D9%86_50_%D9%85%DB%8C%D9%84%DB%8C_%DA%AF%D8%B1%D9%85/3D-Box-Losartan.png",
@@ -137,7 +137,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Albuterol",
       "price": "20,00 LEI",
       "img": " https://www.mountainside-medical.com/cdn/shop/files/Albuterol-Sulfate-Inhalation-Aerosol-HFA-90-mcg-Inhaler-by-sandoz_700x700.jpg?v=1684851852",
@@ -150,7 +150,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Gabapentin",
       "price": "23,00 LEI",
       "img": " https://www.camberpharma.com/wp-content/uploads/2021/11/Gabapentin_600mg_100ct.jpg",
@@ -163,7 +163,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Sertraline",
       "price": "27,50 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2016/01/Sertraline-50mg-Film-coated-Tablets_28s_FF-1.png",
@@ -176,7 +176,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Furosemide",
       "price": "21,00 LEI",
       "img": " https://shopsuki.ph/cdn/shop/files/104396661_2_800x.png?v=1687252616",
@@ -189,7 +189,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Hydrochlorothiazide",
       "price": "22,00 LEI",
       "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIV8eg14olKfj47dZgCWAEeexd2xu8vcKXw&",
@@ -201,7 +201,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Zolpidem",
       "price": "25,50 LEI",
       "img": " https://farmaciaprofarm.ro/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/z/o/zolpidem-atb-600.jpg",
@@ -211,7 +211,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Citalopram",
       "price": "24,00 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2023/08/Citalopram-10mg-Film-coated-Tablets_FF.png",
@@ -222,7 +222,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Montelukast",
       "price": "23,50 LEI",
       "img": " https://welzo.com/cdn/shop/articles/montelukast-uses-side-effects-and-interactions-welzo_081f9b33-d8fc-4072-9b8f-22492b535d80.png?v=1710941586",
@@ -232,7 +232,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Pantoprazole",
       "price": "21,50 LEI",
       "img": " https://www.krishlarpharma.com/wp-content/uploads/2019/12/KRITZOL-40-tablet.jpg",
@@ -242,7 +242,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Escitalopram",
       "price": "28,50 LEI",
       "img": "https://www.farmaciasespecializadas.com/media/catalog/product/cache/2031c741f7e965809b1df9e9ad67bd4c/3/1/31288_svsyuwarikl9kmvs.jpg",
@@ -253,7 +253,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Prednisone",
       "price": "18,00 LEI",
       "img": " https://www.xalmeds.com/cdn/shop/files/BBA7C6AF-3165-4F01-AC7C-BF1C5B7A4E8E.jpg?v=1698222761",
@@ -264,7 +264,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Trazodone",
       "price": "19,50 LEI",
       "img": " https://www.buy-pharma.md/img/uploads/1665-Trazonil-50-Generic-Desyrel-Trazodone-50mg-Tablet.jpg",
@@ -274,7 +274,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Meloxicam",
       "price": "22,00 LEI",
       "img": " https://farmaciaprofarm.ro/media/catalog/product/M/E/MELOXICAM_7.5mg_3D75e4-600.jpg",
@@ -284,7 +284,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Clopidogrel",
       "price": "26,50 LEI",
       "img": " https://southstardrug.com.ph/cdn/shop/products/22020_1_800x.jpg?v=1666750837",
@@ -294,7 +294,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Atenolol",
       "price": "20,00 LEI",
       "img": " https://www.adiuvopharma.com/wp-content/uploads/2022/05/Render15.png",
@@ -304,7 +304,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Alprazolam",
       "price": "27,00 LEI",
       "img": " https://www.medpont.ro/wp-content/uploads/2019/06/Alprazolam.jpg",
@@ -315,7 +315,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Amlodipine",
       "price": "23,50 LEI",
       "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1707298988/sd/uk/services-setup/high-blood-pressure-unit/amlodipine/aglli6kztlzk3s8fwajd.png",
@@ -325,7 +325,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Diclofenac",
       "price": "24,00 LEI",
       "img": " https://farmacia-abc.ro/wp-content/uploads/2017/03/DICLOFENAC-50-MG-X-20-CP-TERAPIA.jpg",
@@ -336,7 +336,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Allopurinol",
       "price": "22,50 LEI",
       "img": " https://online-pharmacy4u.co.uk/cdn/shop/products/allopurinol-100mg-tablets-253726_1200x1200.jpg?v=1649266561",
@@ -346,7 +346,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Metoprolol",
       "price": "24,50 LEI",
       "img": " https://www.mountainside-medical.com/cdn/shop/files/Metoprolol-Tartrate-for-Injection-5-ml-x-10-per-box.jpg?v=1686226233",
@@ -356,7 +356,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Carvedilol",
       "price": "23,00 LEI",
       "img": " https://5.imimg.com/data5/SELLER/Default/2021/6/KT/TJ/LE/3184985/crisdilol12-5.jpg",
@@ -367,7 +367,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Warfarin",
       "price": "25,00 LEI",
       "img": "https://miro.medium.com/v2/resize:fit:463/1*AQT02HC_kGcxhe_LQCyLug.png",
@@ -377,7 +377,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Cyclobenzaprine",
       "price": "21,00 LEI",
       "img": " https://www.solcohealthcare.com/wp-content/uploads/2019/08/Cyclobenzaprine.jpg",
@@ -387,7 +387,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Fluoxetine",
       "price": "26,50 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2018/08/Fluoxetine.jpg",
@@ -398,7 +398,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Cetirizine",
       "price": "18,00 LEI",
       "img": " https://www.soin-et-nature.com/media/cache/shop_product_large_thumbnail/products/3/2/4/8/5/32485.jpg",
@@ -408,7 +408,7 @@
       "type": "Fără rețetă"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Venlafaxine",
       "price": "27,00 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2021/07/Venlafaxine-1.jpg",
@@ -418,7 +418,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Lorazepam",
       "price": "25,00 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2022/03/Lorazepam.jpg",
@@ -428,7 +428,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Quetiapine",
       "price": "28,00 LEI",
       "img": " https://www.eridanushealth.com/wp-content/uploads/2017/02/eriquito-50.jpg",
@@ -438,7 +438,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Glipizide",
       "price": "22,00 LEI",
       "img": " https://s.turbifycdn.com/aah/yhst-135855760451349/glipizide-10mg-100-tabs-manufacture-may-vary-42.jpg",
@@ -448,7 +448,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Clonazepam",
       "price": "23,50 LEI",
       "img": " https://5.imimg.com/data5/SELLER/Default/2023/10/355936321/AQ/YV/KP/201706771/clonazepam-0-5-mg-tablet-10x10.jpg",
@@ -458,7 +458,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Sulfamethoxazole/Trimethoprim",
       "price": "20,00 LEI",
       "img": " https://d2gdaxkudte5p.cloudfront.net/system/images/S47000-25.0.jpg",
@@ -468,7 +468,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Propranolol",
       "price": "22,50 LEI",
       "img": " https://pharmacymayfair.co.uk/wp-content/uploads/pharmacy_mentor/importImages/propranolol.jpeg",
@@ -478,7 +478,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Doxycycline",
       "price": "23,00 LEI",
       "img": " https://medsrus.co.uk/image/cache/catalog/old_site/104/doxycycline-capsules-100mg-1-800x800.jpg",
@@ -488,7 +488,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Oxycodone",
       "price": "30,00 LEI",
       "img": " https://www.drugs.com/pro/images/a5162476-1217-41c0-bc7e-0a0f123f069f/oxy-05.jpg",
@@ -498,7 +498,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Ciprofloxacin",
       "price": "25,00 LEI",
       "img": " https://fidson.com/wp-content/uploads/2022/09/Ciprofloxacin-500.png",
@@ -508,7 +508,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Duloxetine",
       "price": "28,00 LEI",
       "img": " https://www.eridanushealth.com/wp-content/uploads/2020/07/Duzin-30.jpg",
@@ -518,7 +518,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Methylphenidate",
       "price": "32,00 LEI",
       "img": " https://www.padagis.com/wp-content/uploads/2023/05/40J-carton-new2.png",
@@ -528,7 +528,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Tramadol",
       "price": "24,00 LEI",
       "img": " https://john-martin.com.ar/wp-content/uploads/2019/06/Pack-TRAMADOL-comp.jpg",
@@ -538,7 +538,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Valacyclovir",
       "price": "27,00 LEI",
       "img": " https://www.camberpharma.com/wp-content/uploads/2020/08/Valacyclovir_500mg_30ct_bottle.jpg",
@@ -548,7 +548,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Levofloxacin",
       "price": "25,00 LEI",
       "img": " https://vinmec-prod.s3.amazonaws.com/images/20220617_045533_030379_Levofloxacin-750.max-1800x1800.jpg",
@@ -558,7 +558,7 @@
       "type": "Rețetă"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Aspirin",
       "price": "18,50 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/89478/medium/aspirina-organica-60-capsule-herbagetica-4241.webp",
@@ -571,7 +571,7 @@
       "promo": true
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "NUROFEN portocale pentru copii 3 luni+",
       "price": "19,50 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/15806/medium/nurofen-200mg-24-drajeuri-reckitt-benkiser-healthcare-8465.webp",
