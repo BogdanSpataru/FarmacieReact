@@ -4,7 +4,6 @@ export const initialStateCart = {
 };
 
 export function cartReducer(state = initialStateCart, action) {
-  console.log(action);
   switch (action.type) {
     case "ADD_TO_CART":
       const updatedCart = [...state.cartValue];

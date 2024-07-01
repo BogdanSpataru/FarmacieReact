@@ -15,6 +15,11 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: flex-start;
   margin-right: 20px;
+
+  @media (max-width: 750px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Image = styled.img`
@@ -23,6 +28,10 @@ export const Image = styled.img`
   height: 250px;
   justify-content: center;
   display: flex;
+
+  @media (max-width: 750px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h2`
@@ -54,9 +63,13 @@ export const Button = styled.button`
   color: white;
   cursor: pointer;
   outline: none;
+  height: 44px;
 
   &:hover {
     background-color: #45a049;
+  }
+  @media (max-width: 480px) {
+    font-size: 11px;
   }
 `;
 

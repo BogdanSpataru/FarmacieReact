@@ -73,7 +73,7 @@ export const Price = styled.p`
 `;
 
 export const AddToCartButton = styled.button`
-  background-color: #4caf50;
+  background-color: green;
   color: white;
   border: none;
   border-radius: 50%;

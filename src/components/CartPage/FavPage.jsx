@@ -13,8 +13,9 @@ import {
   ItemQuantity,
   QuantityButton,
   Title,
+  AddToCartButton,
+  CartIcon,
 } from "./CartPage.styled";
-import { AddToCartButton, CartIcon } from "../Produs/Produs.style";
 
 const CartPage = () => {
   const { stateGlobalCart, dispatchCart } = useContext(CartContext);

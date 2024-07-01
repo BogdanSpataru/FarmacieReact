@@ -10,6 +10,7 @@ import {
 export const CartContainer = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 20px;
   min-height: 500px;
 `;
@@ -17,6 +18,7 @@ export const CartContainer = styled.div`
 export const CartItemsContainer = styled(Link)`
   width: 50%;
   text-decoration: none;
+  min-width: 350px;
 `;
 
 export const SummaryContainer = styled.div`
@@ -24,9 +26,13 @@ export const SummaryContainer = styled.div`
   height: 20%;
   border: 1px solid #e0e0e0;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 5px;
   margin-left: 28px;
   margin-top: 56px;
+  min-width: 300px;
+  flex-direction: column;
 `;
 
 export const CartItem = styled.div`
@@ -119,14 +125,23 @@ export const FavoriteButtonCos = styled.button`
   color: white;
   border: none;
   padding: 10px;
-  width: 20%;
+  width: 25%;
   cursor: pointer;
   font-size: 16px;
   border-radius: 8px;
   z-index: 2;
+  min-width: 125px;
   &:hover {
     background: darkred;
     color: ${WHITE_NEUTRAL};
+  }
+
+  @media (max-width: 900px) {
+    padding: 8px;
+    font-size: 0;
+    max-width: 80px;
+    min-width: 50px;
+    margin: 5px;
   }
 `;
 
@@ -142,5 +157,42 @@ export const ContinueButton = styled.button`
   &:hover {
     background: ${DARK_GREEN};
     color: ${WHITE_NEUTRAL};
+  }
+`;
+
+export const AddToCartButton = styled.button`
+  background-color: green;
+  width: 220px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 4px;
+  &:hover {
+    background: ${DARK_GREEN};
+    color: ${WHITE_NEUTRAL};
+  }
+
+  &:hover {
+    background-color: darkgreen;
+  }
+
+  @media (max-width: 900px) {
+    padding: 10px;
+    font-size: 0;
+    max-width: 86px;
+  }
+`;
+
+export const CartIcon = styled.span`
+  font-size: 20px;
+  margin-right: 10px;
+
+  @media (max-width: 900px) {
+    margin-right: 0;
   }
 `;

@@ -31,7 +31,6 @@ export const TrendContainer = styled.div`
 export const Card = styled.div`
   margin: 0 10px 20px;
   border: 1px solid #ddd;
-  overflow: hidden;
   text-align: center;
   background-color: #ebebeb;
   display: flex;
@@ -44,15 +43,22 @@ export const Card = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   max-height: 400px;
+  transition: transform 0.5s ease;
 
   &:hover {
-    transform: scale(1.12);
+    transform: scale(1.05);
   }
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: 125px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const Title = styled.h3`

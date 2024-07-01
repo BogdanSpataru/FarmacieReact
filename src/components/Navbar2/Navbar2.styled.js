@@ -42,6 +42,7 @@ export const ProdButton = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 220px;
 
   @media screen and (max-width: 820px) {
     display: none;
@@ -59,7 +60,6 @@ export const ProdDropdown = styled.div`
   background-color: #f8f9fa;
   border: 1px solid #ddd;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1;
   padding: 10px;
   width: 17vw;
   z-index: 2;
@@ -67,11 +67,13 @@ export const ProdDropdown = styled.div`
   @media screen and (max-width: 825px) {
     display: none;
   }
+  @media (max-width: 1650px) {
+    width: 16.3vw;
+  }
 `;
 
 export const DropdownItem = styled(Link)`
   background: none;
-  width: 15vw;
   color: black;
   padding: 13.5px 20px;
   text-decoration: none;
@@ -85,6 +87,10 @@ export const DropdownItem = styled(Link)`
 
   &:hover {
     background-color: #ddd;
+  }
+  @media (max-width: 1650px) {
+    font-size: 14px;
+    padding: 11px 20px;
   }
   @media (max-width: 825px) {
     width: 100%;

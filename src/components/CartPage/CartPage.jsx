@@ -19,6 +19,7 @@ import {
   ContinueButton,
   Title,
   FavoriteButtonCos,
+  CartIcon,
 } from "./CartPage.styled";
 
 function CartPage() {
@@ -75,6 +76,9 @@ function CartPage() {
                 handleAddFav(item.id, item.name, item.img, item.price)
               }
             >
+              <CartIcon role="img" aria-label="heart">
+                🤍
+              </CartIcon>
               Adauga in favorite
             </FavoriteButtonCos>
             <ItemQuantity>

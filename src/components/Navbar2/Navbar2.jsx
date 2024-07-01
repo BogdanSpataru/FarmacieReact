@@ -71,8 +71,6 @@ function Navbar2() {
           <NavLink to="/noutati">Noutăți</NavLink>
           <NavLink to="/promotii">Promotii</NavLink>
           <NavLink to="/trend">In trend</NavLink>
-          <NavLink to="/articole">Articole</NavLink>
-          <NavLink to="evenimente">Evenimente</NavLink>
         </NavLinks>
       </NavContainer>
     </Nav>

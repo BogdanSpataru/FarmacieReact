@@ -164,7 +164,7 @@ export const QuantityInput = styled.input`
 `;
 
 export const AddToCartButton = styled.button`
-  background-color: #28a745;
+  background-color: green;
   width: 250px;
   color: white;
   border: none;

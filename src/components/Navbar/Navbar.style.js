@@ -48,6 +48,7 @@ export const NavbarContainer = styled.div`
 
 export const LinkNavStyle = styled(Link)`
   text-decoration: none;
+  min-width: 60px;
   cursor: pointer;
   color: black;
   padding: 8px 16px;
@@ -59,6 +60,9 @@ export const LinkNavStyle = styled(Link)`
     background: #4caf50;
     color: ${WHITE_NEUTRAL};
     border-radius: 0;
+  }
+  @media screen and (max-width: 1320px) {
+    padding: 2px 16px;
   }
 
   @media screen and (max-width: 820px) {
@@ -194,6 +198,7 @@ export const LinkNavCart = styled.div`
   justify-content: center;
   align-items: center;
   right: 0;
+
   @media screen and (max-width: 820px) {
     right: -10px;
   }
@@ -216,8 +221,11 @@ export const LinkNavFav = styled.div`
   @media screen and (max-width: 820px) {
     right: -6px;
   }
-  @media screen and (min-width: 1300px) {
-    right: 56%;
+  @media screen and (min-width: 1320px) {
+    right: 55%;
+  }
+  @media screen and (max-width: 1290px) {
+    right: 45%;
   }
 `;
 export const DropdownContainerFav = styled.div`
